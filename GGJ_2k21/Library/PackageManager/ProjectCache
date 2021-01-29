@@ -1,19 +1,19 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Utilisateur/Desktop/Cours/GGJ2k21/GGJ_2k21/Packages/manifest.json
+    m_FilePath: C:/Users/vince/Documents/GitHub/GGJ2k21/GGJ2k21/GGJ_2k21/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637475426762471263
-    m_Hash: 3781187783
+      ticks: 637475442595142360
+    m_Hash: 2241515343
   m_LockFileStatus:
-    m_FilePath: C:/Users/Utilisateur/Desktop/Cours/GGJ2k21/GGJ_2k21/Packages/packages-lock.json
+    m_FilePath: C:/Users/vince/Documents/GitHub/GGJ2k21/GGJ2k21/GGJ_2k21/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637475426902342749
+      ticks: 637475443036785142
     m_Hash: 1782348133
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -126,7 +126,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.5.2
       source: 1
-      resolvedPath: C:\Users\Utilisateur\Desktop\Cours\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.ads@3.5.2
+      resolvedPath: C:\Users\vince\Documents\GitHub\GGJ2k21\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.ads@3.5.2
       assetPath: Packages/com.unity.ads
       name: com.unity.ads
       displayName: Advertisement
@@ -142,54 +142,8 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 0.0.3
-        - 0.0.4
-        - 0.0.5
-        - 0.0.6
-        - 0.0.7
-        - 0.0.8
-        - 0.0.10
-        - 0.0.11
-        - 0.0.12
-        - 0.0.13
-        - 0.0.14
-        - 0.0.15
-        - 0.0.16
-        - 2.0.0
-        - 2.0.3
-        - 2.0.4
-        - 2.0.7
-        - 2.0.8
-        - 2.3.1
-        - 2.3.2
-        - 3.0.1
-        - 3.0.2
-        - 3.0.3
         - 3.5.2
         compatible:
-        - 0.0.3
-        - 0.0.4
-        - 0.0.5
-        - 0.0.6
-        - 0.0.7
-        - 0.0.8
-        - 0.0.10
-        - 0.0.11
-        - 0.0.12
-        - 0.0.13
-        - 0.0.14
-        - 0.0.15
-        - 0.0.16
-        - 2.0.0
-        - 2.0.3
-        - 2.0.4
-        - 2.0.7
-        - 2.0.8
-        - 2.3.1
-        - 2.3.2
-        - 3.0.1
-        - 3.0.2
-        - 3.0.3
         - 3.5.2
         verified: 3.5.2
       dependencies:
@@ -230,7 +184,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.5.3
       source: 1
-      resolvedPath: C:\Users\Utilisateur\Desktop\Cours\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.analytics@3.5.3
+      resolvedPath: C:\Users\vince\Documents\GitHub\GGJ2k21\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.analytics@3.5.3
       assetPath: Packages/com.unity.analytics
       name: com.unity.analytics
       displayName: Analytics Library
@@ -246,66 +200,8 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 0.0.3
-        - 0.0.4
-        - 0.0.5
-        - 0.0.7
-        - 0.0.8
-        - 0.0.9
-        - 0.0.10
-        - 0.0.11
-        - 0.0.12
-        - 0.0.13
-        - 0.0.14
-        - 0.0.15
-        - 0.0.16
-        - 0.0.17
-        - 0.0.19
-        - 2.0.5
-        - 2.0.11
-        - 2.0.13
-        - 2.0.14
-        - 2.0.15
-        - 2.0.16
-        - 3.0.5
-        - 3.0.9
-        - 3.1.1
-        - 3.2.0
-        - 3.2.2
-        - 3.3.0
-        - 3.3.2-preview
-        - 3.3.2
         - 3.5.3
         compatible:
-        - 0.0.3
-        - 0.0.4
-        - 0.0.5
-        - 0.0.7
-        - 0.0.8
-        - 0.0.9
-        - 0.0.10
-        - 0.0.11
-        - 0.0.12
-        - 0.0.13
-        - 0.0.14
-        - 0.0.15
-        - 0.0.16
-        - 0.0.17
-        - 0.0.19
-        - 2.0.5
-        - 2.0.11
-        - 2.0.13
-        - 2.0.14
-        - 2.0.15
-        - 2.0.16
-        - 3.0.5
-        - 3.0.9
-        - 3.1.1
-        - 3.2.0
-        - 3.2.2
-        - 3.3.0
-        - 3.3.2-preview
-        - 3.3.2
         - 3.5.3
         verified: 3.5.3
       dependencies:
@@ -346,7 +242,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\Users\Utilisateur\Desktop\Cours\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: C:\Users\vince\Documents\GitHub\GGJ2k21\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -363,21 +259,9 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.2.3-preview
-        - 1.2.4-preview
-        - 1.2.6
-        - 1.2.7
-        - 1.2.9
-        - 1.2.11
-        - 1.2.15
-        - 1.2.16
         - 1.3.9
-        - 2.0.0-preview.6
-        - 2.0.0-preview.8
         compatible:
         - 1.3.9
-        - 2.0.0-preview.6
-        - 2.0.0-preview.8
         verified: 1.3.9
       dependencies: []
       resolvedDependencies: []
@@ -417,7 +301,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\Utilisateur\Desktop\Cours\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\vince\Documents\GitHub\GGJ2k21\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -476,7 +360,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.5
       source: 1
-      resolvedPath: C:\Users\Utilisateur\Desktop\Cours\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
+      resolvedPath: C:\Users\vince\Documents\GitHub\GGJ2k21\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -525,7 +409,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\Utilisateur\Desktop\Cours\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\Users\vince\Documents\GitHub\GGJ2k21\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -574,7 +458,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.1.1
       source: 1
-      resolvedPath: C:\Users\Utilisateur\Desktop\Cours\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.purchasing@2.1.1
+      resolvedPath: C:\Users\vince\Documents\GitHub\GGJ2k21\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.purchasing@2.1.1
       assetPath: Packages/com.unity.purchasing
       name: com.unity.purchasing
       displayName: In App Purchasing
@@ -717,7 +601,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.19
       source: 1
-      resolvedPath: C:\Users\Utilisateur\Desktop\Cours\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.test-framework@1.1.19
+      resolvedPath: C:\Users\vince\Documents\GitHub\GGJ2k21\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.test-framework@1.1.19
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -778,7 +662,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-      resolvedPath: C:\Users\Utilisateur\Desktop\Cours\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: C:\Users\vince\Documents\GitHub\GGJ2k21\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.textmeshpro@3.0.1
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -813,26 +697,6 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 0.1.2
-        - 1.0.21
-        - 1.0.23
-        - 1.0.25
-        - 1.0.26
-        - 1.1.0
-        - 1.2.0
-        - 1.2.1
-        - 1.2.2
-        - 1.2.3
-        - 1.2.4
-        - 1.3.0-preview
-        - 1.3.0
-        - 1.4.0-preview.1b
-        - 1.4.0-preview.2a
-        - 1.4.0-preview.3a
-        - 1.4.0
-        - 1.4.1-preview.1
-        - 2.0.0
-        - 2.0.1-preview.1
         - 3.0.1
         compatible:
         - 3.0.1
@@ -878,7 +742,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.4
       source: 1
-      resolvedPath: C:\Users\Utilisateur\Desktop\Cours\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.timeline@1.4.4
+      resolvedPath: C:\Users\vince\Documents\GitHub\GGJ2k21\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.timeline@1.4.4
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -1012,7 +876,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.1.6
       source: 1
-      resolvedPath: C:\Users\Utilisateur\Desktop\Cours\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.6
+      resolvedPath: C:\Users\vince\Documents\GitHub\GGJ2k21\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.6
       assetPath: Packages/com.unity.xr.legacyinputhelpers
       name: com.unity.xr.legacyinputhelpers
       displayName: XR Legacy Input Helpers
@@ -1032,12 +896,6 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.0.0
-        - 1.0.2
-        - 1.0.3
-        - 1.3.1
-        - 2.0.1
-        - 2.0.2
         - 2.1.6
         compatible:
         - 2.1.6
@@ -2817,7 +2675,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.5
       source: 1
-      resolvedPath: C:\Users\Utilisateur\Desktop\Cours\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.ext.nunit@1.0.5
+      resolvedPath: C:\Users\vince\Documents\GitHub\GGJ2k21\GGJ2k21\GGJ_2k21\Library\PackageCache\com.unity.ext.nunit@1.0.5
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2865,5 +2723,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/Utilisateur/Desktop/Cours/GGJ2k21/GGJ_2k21/Packages
+m_ProjectPath: C:/Users/vince/Documents/GitHub/GGJ2k21/GGJ2k21/GGJ_2k21/Packages
 m_EditorVersion: 2020.2.1f1 (270dd8c3da1c)
