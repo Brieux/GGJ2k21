@@ -57,10 +57,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Cursor.cs" />
-    <Compile Include="Assets\Script\Scoring.cs" />
-    <Compile Include="Assets\Script\CubeScript.cs" />
     <Compile Include="Assets\Script\ControlPlatform.cs" />
+    <Compile Include="Assets\Script\Scoring.cs" />
     <Compile Include="Assets\Script\Launch.cs" />
+    <Compile Include="Assets\Script\CubeScript.cs" />
+    <Compile Include="Assets\Script\tpScript.cs" />
+    <Compile Include="Assets\Script\Rotate.cs" />
+    <Compile Include="Assets\Fondu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
