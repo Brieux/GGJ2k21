@@ -18,6 +18,11 @@ public class ControlPlatform : MonoBehaviour
     void Start()
     {
         transform.position = stockage.posTP;
+        if (transform.position != new Vector3(0, -2.31f, -1f))
+        {
+            cam1.GetComponentInChildren<AudioSource>().clip = stockage.newSound;
+            cam1.GetComponentInChildren<AudioSource>().Play();
+        } 
     }
 
     // Update is called once per frame
@@ -43,6 +48,16 @@ public class ControlPlatform : MonoBehaviour
                 cam1.GetComponentInChildren<AudioSource>().clip = collision.gameObject.GetComponentInChildren<tpScript>().newSound;
                 cam1.GetComponentInChildren<AudioSource>().Play();
             }
+            if (collision.gameObject.GetComponentInChildren<tpScript>().numeroCase == 5)
+            {
+                cam1.GetComponentInChildren<AudioSource>().clip = collision.gameObject.GetComponentInChildren<tpScript>().newSound;
+                cam1.GetComponentInChildren<AudioSource>().Play();
+            }
+            if (collision.gameObject.GetComponentInChildren<tpScript>().numeroCase == 0)
+            {
+                cam1.GetComponentInChildren<AudioSource>().clip = collision.gameObject.GetComponentInChildren<tpScript>().newSound;
+                cam1.GetComponentInChildren<AudioSource>().Play();
+            }
 
         }
   
@@ -50,6 +65,7 @@ public class ControlPlatform : MonoBehaviour
         {
             control = false;
             stockage.greenCube = true;
+            stockage.newSound = cam1.GetComponentInChildren<AudioSource>().clip;
             SceneManager.LoadScene(1);
         }
     }

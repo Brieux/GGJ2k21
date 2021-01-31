@@ -13,4 +13,5 @@ public class ScriptableObject_Stockage : ScriptableObject
     public bool yellowCube;
     public Vector3 posTP;
     public Vector3 cameraPos;
+    public AudioClip newSound;
 }

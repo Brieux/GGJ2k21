@@ -20,3 +20,4 @@ MonoBehaviour:
   yellowCube: 0
   posTP: {x: 0, y: -2.31, z: -1}
   cameraPos: {x: 0, y: 0, z: -5.36}
+  newSound: {fileID: 0}

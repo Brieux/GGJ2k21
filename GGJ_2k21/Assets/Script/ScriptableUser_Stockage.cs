@@ -12,6 +12,7 @@ public class ScriptableUser_Stockage : MonoBehaviour
     public ScriptableObject_Stockage yellowCube;
     public ScriptableObject_Stockage posTP;
     public ScriptableObject_Stockage cameraPos;
+    public AudioClip newSound;
 
     public void Start()
     {

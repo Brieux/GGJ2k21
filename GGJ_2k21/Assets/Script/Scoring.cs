@@ -37,6 +37,7 @@ public class Scoring : MonoBehaviour
             {
             stockage.posTP = new Vector3(266.3f, -0.5f, -1f);
             stockage.cameraPos = new Vector3(266.11f, 0f, -18.3f);
+            
             stockage.green = false;
             stockage.greenCube = false;
             }
