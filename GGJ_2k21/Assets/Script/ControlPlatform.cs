@@ -10,16 +10,20 @@ public class ControlPlatform : MonoBehaviour
     public GameObject player;
     public GameObject cam1;
     public bool control;
+    public bool green;
+    public bool yellow;
+    public bool blue;
+    public ScriptableObject_Stockage stockage;
     // Start is called before the first frame update
     void Start()
     {
-        
+        transform.position = stockage.posTP;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        UpdateBool();
 
     }
 
@@ -41,12 +45,12 @@ public class ControlPlatform : MonoBehaviour
             }
 
         }
-        if (collision.gameObject.tag == "CubeG")
+  
+        if (collision.gameObject.tag == "CubeG" && stockage.green)
         {
-            print("salut");
             control = false;
+            stockage.greenCube = true;
             SceneManager.LoadScene(1);
-
         }
     }
     void Move()
@@ -58,5 +62,12 @@ public class ControlPlatform : MonoBehaviour
             playerRb.AddForce(y * transform.up * speed, ForceMode.Acceleration);
             playerRb.AddForce(x * transform.right * speed, ForceMode.Acceleration);
         }
+    }
+
+    void UpdateBool()
+    {
+        blue = stockage.blue;
+        yellow = stockage.yellow;
+        green = stockage.green;
     }
 }

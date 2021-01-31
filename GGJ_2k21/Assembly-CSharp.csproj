@@ -56,14 +56,16 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\Rotate.cs" />
     <Compile Include="Assets\Script\Cursor.cs" />
+    <Compile Include="Assets\Script\Fondu.cs" />
     <Compile Include="Assets\Script\ControlPlatform.cs" />
+    <Compile Include="Assets\Script\tpScript.cs" />
     <Compile Include="Assets\Script\Scoring.cs" />
     <Compile Include="Assets\Script\Launch.cs" />
     <Compile Include="Assets\Script\CubeScript.cs" />
-    <Compile Include="Assets\Script\tpScript.cs" />
-    <Compile Include="Assets\Script\Rotate.cs" />
-    <Compile Include="Assets\Fondu.cs" />
+    <Compile Include="Assets\Script\ScriptableObject_Stockage.cs" />
+    <Compile Include="Assets\Script\ScriptableUser_Stockage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

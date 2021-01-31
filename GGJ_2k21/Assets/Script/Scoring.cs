@@ -12,6 +12,7 @@ public class Scoring : MonoBehaviour
     public Vector3 posRand;
     public Vector3 posCroix;
     public GameObject Score;
+    public ScriptableObject_Stockage stockage;
 
 
         // Start is called before the first frame update
@@ -32,7 +33,25 @@ public class Scoring : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && toFind.transform.localPosition == selector.transform.localPosition)
         {
-            score += 1;
+            if (stockage.greenCube)
+            {
+            stockage.posTP = new Vector3(266.3f, -0.5f, -1f);
+            stockage.cameraPos = new Vector3(266.11f, 0f, -18.3f);
+            stockage.green = false;
+            stockage.greenCube = false;
+            }
+            if (stockage.blueCube)
+            {
+                stockage.blue = false;
+                stockage.blueCube = false;
+            }
+            if (stockage.yellowCube)
+            {
+                stockage.yellow = false;
+                stockage.yellowCube = false;
+            }
+
+            SceneManager.LoadScene(0);
         }
         else if (Input.GetKeyDown(KeyCode.Space))
         {
