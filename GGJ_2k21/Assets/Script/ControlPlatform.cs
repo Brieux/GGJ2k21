@@ -68,6 +68,14 @@ public class ControlPlatform : MonoBehaviour
             stockage.newSound = cam1.GetComponentInChildren<AudioSource>().clip;
             SceneManager.LoadScene(1);
         }
+
+        if (collision.gameObject.tag == "CubeB" && stockage.blue)
+        {
+            control = false;
+            stockage.blueCube = true;
+            stockage.newSound = cam1.GetComponentInChildren<AudioSource>().clip;
+            SceneManager.LoadScene(1);
+        }
     }
     void Move()
     {
