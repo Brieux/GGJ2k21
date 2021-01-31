@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bbf39d86e4286e419c02a8489956d08, type: 3}
   m_Name: New Scriptable Object_Stockage
   m_EditorClassIdentifier: 
-  green: 0
-  blue: 0
+  green: 1
+  blue: 1
   yellow: 1
   greenCube: 0
   blueCube: 0
   yellowCube: 0
   posTP: {x: 0, y: -2.31, z: -1}
   cameraPos: {x: 0, y: 0, z: -5.36}
-  newSound: {fileID: 8300000, guid: 09aadb782e6e88b449d8a0e5ce65bd8a, type: 3}
+  newSound: {fileID: 8300000, guid: 4c2780939912ae045b42d5dfe63fc987, type: 3}

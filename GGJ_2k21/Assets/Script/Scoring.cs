@@ -51,6 +51,9 @@ public class Scoring : MonoBehaviour
             }
             if (stockage.yellowCube)
             {
+                stockage.posTP = new Vector3(815.6f, 1.2f, -1f); ;
+                stockage.cameraPos = new Vector3(812.9f, 0f, -5.36f);
+
                 stockage.yellow = false;
                 stockage.yellowCube = false;
             }

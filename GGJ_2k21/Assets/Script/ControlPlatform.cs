@@ -53,6 +53,11 @@ public class ControlPlatform : MonoBehaviour
                 cam1.GetComponentInChildren<AudioSource>().clip = collision.gameObject.GetComponentInChildren<tpScript>().newSound;
                 cam1.GetComponentInChildren<AudioSource>().Play();
             }
+            if (collision.gameObject.GetComponentInChildren<tpScript>().numeroCase == 9)
+            {
+                cam1.GetComponentInChildren<AudioSource>().clip = collision.gameObject.GetComponentInChildren<tpScript>().newSound;
+                cam1.GetComponentInChildren<AudioSource>().Play();
+            }
             if (collision.gameObject.GetComponentInChildren<tpScript>().numeroCase == 0)
             {
                 cam1.GetComponentInChildren<AudioSource>().clip = collision.gameObject.GetComponentInChildren<tpScript>().newSound;
@@ -73,6 +78,13 @@ public class ControlPlatform : MonoBehaviour
         {
             control = false;
             stockage.blueCube = true;
+            stockage.newSound = cam1.GetComponentInChildren<AudioSource>().clip;
+            SceneManager.LoadScene(1);
+        }
+        if (collision.gameObject.tag == "CubeY" && stockage.yellow)
+        {
+            control = false;
+            stockage.yellowCube = true;
             stockage.newSound = cam1.GetComponentInChildren<AudioSource>().clip;
             SceneManager.LoadScene(1);
         }

@@ -12170,7 +12170,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1489453774}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 791.63, y: 3.01, z: -5.04}
+  m_LocalPosition: {x: 815.6, y: 1.2, z: -5.04}
   m_LocalScale: {x: 0.23, y: 0.23, z: 0.19}
   m_Children: []
   m_Father: {fileID: 0}
@@ -12327,7 +12327,7 @@ GameObject:
   - component: {fileID: 1512870880}
   - component: {fileID: 1512870879}
   m_Layer: 0
-  m_Name: TP1-9
+  m_Name: TP0-9
   m_TagString: Gate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12348,7 +12348,7 @@ MonoBehaviour:
   numeroCase: 9
   tpPos: {x: 588.5, y: -5.2, z: -1}
   tpCamera: {x: 609.92, y: 0, z: -5.36}
-  newSound: {fileID: 0}
+  newSound: {fileID: 8300000, guid: 4c2780939912ae045b42d5dfe63fc987, type: 3}
 --- !u!65 &1512870880
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15230,7 +15230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90920c1ef1b688d4b95f178e73989f78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroCase: 9
+  numeroCase: 99
   tpPos: {x: 624.11, y: -11.09, z: -1}
   tpCamera: {x: 609.92, y: 0, z: -5.36}
   newSound: {fileID: 0}
@@ -15421,7 +15421,7 @@ MonoBehaviour:
   numeroCase: 1
   tpPos: {x: 63.5, y: -9.5, z: 1}
   tpCamera: {x: 64.19, y: 0, z: 0}
-  newSound: {fileID: 8300000, guid: 6f0e3dd7eddb2904ea17905a6fbead45, type: 3}
+  newSound: {fileID: 8300000, guid: 5ee5e1493bcfd644890f885095359f00, type: 3}
 --- !u!1 &1933927247
 GameObject:
   m_ObjectHideFlags: 0
@@ -17066,7 +17066,7 @@ GameObject:
   - component: {fileID: 2111007931}
   - component: {fileID: 2111007930}
   m_Layer: 0
-  m_Name: TP9-1
+  m_Name: TP9-0
   m_TagString: Gate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17084,10 +17084,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90920c1ef1b688d4b95f178e73989f78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroCase: 1
+  numeroCase: 0
   tpPos: {x: 22.9, y: -5.2, z: -1}
   tpCamera: {x: 0.7, y: 0, z: -5.36}
-  newSound: {fileID: 0}
+  newSound: {fileID: 8300000, guid: bc339cf8a296b7f458f6475a32e101bd, type: 3}
 --- !u!65 &2111007931
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17444,9 +17444,9 @@ VideoPlayer:
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 1
-  m_AspectRatio: 2
+  m_AspectRatio: 5
   m_DataSource: 0
-  m_PlaybackSpeed: 10
+  m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
   - {fileID: 0}
