@@ -18,6 +18,6 @@ MonoBehaviour:
   greenCube: 0
   blueCube: 0
   yellowCube: 0
-  posTP: {x: 0, y: -2.31, z: -1}
+  posTP: {x: 0, y: 0, z: -1}
   cameraPos: {x: 0, y: 0, z: -5.36}
-  newSound: {fileID: 8300000, guid: 4c2780939912ae045b42d5dfe63fc987, type: 3}
+  newSound: {fileID: 8300000, guid: bc339cf8a296b7f458f6475a32e101bd, type: 3}

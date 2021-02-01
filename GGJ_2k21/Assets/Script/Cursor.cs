@@ -31,7 +31,7 @@ public class Cursor : MonoBehaviour
         Vector3 newPos;
         if (transform.localPosition.x < 0.45f)
         {
-            if (Input.GetKeyDown(KeyCode.A))
+            if (Input.GetKeyDown(KeyCode.D))
             {
                 newPos = new Vector3(0.1f, 0, 0);
                 transform.localPosition = transform.localPosition + newPos;
@@ -55,7 +55,7 @@ public class Cursor : MonoBehaviour
         }
         if (transform.localPosition.y > -0.45f)
         {
-            if (Input.GetKeyDown(KeyCode.S))
+            if (Input.GetKeyDown(KeyCode.X))
             {
                 newPos = new Vector3(0, -0.1f, 0);
                 transform.localPosition = transform.localPosition + newPos;
@@ -71,7 +71,7 @@ public class Cursor : MonoBehaviour
         }
         if (transform.localPosition.z > -0.45f)
         {
-            if (Input.GetKeyDown(KeyCode.D))
+            if (Input.GetKeyDown(KeyCode.W))
             {
                 newPos = new Vector3(0, 0, -0.1f);
                 transform.localPosition = transform.localPosition + newPos;
